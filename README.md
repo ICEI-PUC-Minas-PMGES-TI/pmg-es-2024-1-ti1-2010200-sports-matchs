@@ -1,18 +1,21 @@
-# Nome do projeto
+# Sports Matchs
 
-Escreva um ou dois parágrafo resumindo o objetivo do seu projeto.
+Um projeto Web destinado a agendamentos de partidas amadoras para os úsuarios interessados. Com o foco em agendamentos de partidas, gerenciamento de úsuarios e de esportes com geolocalização em tempo real.
 
 ## Alunos integrantes da equipe
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Cauê Afonso Moraes
+* Gabriel Peçanha Diniz
+* Jordan Oliveira
+* Lorena De Paula 
+* Matheus Bianco Fox Drummond
+* Vitor Veiga Silva
+
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+* João Paulo Aramuni
+* Michelle Hanne 
 
 ## Instruções de utilização
 
