@@ -80,10 +80,23 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 
 ## Requisitos
 
-Os requisitos de um projeto são classificados em dois grupos:
 
-- [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
-  correspondem a uma funcionalidade que deve estar presente na plataforma (ex: cadastro de usuário).
+
+- [Requisitos Funcionais (RF)]:
+- RF1-O jogador insere sua área de preferência para as partidas;
+- RF2-O jogador faz o cadastro;
+- RF3-O jogador cria o seu perfil;
+- RF4-O jogador cria suas proprias partidas;
+- RF5-O jogador pode entrar em partidas existentes;
+- RF6-O jogador pode marcar em uma checklist quais dos materiais nescessários já foram obtidos;
+- RF7-O jogador pode consultar em um mapa o local da partida;
+- RF8-O jogador pode adicionar amigos;
+- RF9-O jogador que criou a partida pode remover participantes;
+- RF10-O jogador pode consultar por quem o preço estabelecido foi pago;
+- RF11-O jogador pode filtrar por categorias seu esporte de preferência;
+- RF12-O jogador pode avaliar o comportamento de outros jogadores;
+- RF13-O jogador pode favoritar suas partidas preferidas;
+- RF14-O jogador pode consultar suas próprias partidas;
 - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
   correspondem a uma característica técnica, seja de usabilidade, desempenho, confiabilidade, segurança ou outro (ex: suporte a dispositivos iOS e Android).
 
@@ -117,7 +130,7 @@ Wireframes são protótipos das telas da aplicação usados em design de interfa
 
 ## Gestão de Projetos
 
- Nesta parte do documento, você deve apresentar  o processo de trabalho baseado nas metodologias ágeis, a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a gestão de configuração do projeto via GitHub.
+Nesta parte do documento, você deve apresentar  o processo de trabalho baseado nas metodologias ágeis, a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a gestão de configuração do projeto via GitHub.
 
 Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
 
