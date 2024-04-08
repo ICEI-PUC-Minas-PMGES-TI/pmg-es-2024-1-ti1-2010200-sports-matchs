@@ -59,19 +59,50 @@ Adicione informações sobre o público-alvo por meio de uma descrição textual
 - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
 
 ## Personas
+-Persona 1
+-Jorge
+-É um jovem de 22 anos;
+-Estuda educação física e trabalha em uma loja como vendedor;
+-Passa a maior parte do seu dia estudando;
+-Se frustra pelo fato de não encontrar pessoas para jogar seus esportes favoritos;
+-Se divertir enquanto concilia faculdade e trabalho;
+-Tem como hobby principal praticar diversos esportes, tendo como principal o basquete;
+-Gasta seu dinheiro com itens esportivos,colecionáveis diversos e serviços de streaming
+relacionados a esporte;
+-Costuma assistir todo tipo de campeonato esportivo;
+-É influenciado por figuras grandes no esporte;
+-Se informa através de redes sociais e portais esportivos;
+-Seus critérios na hora de comprar envolvem o custo benefício e qualidade do produto ou
+serviço;
 
-Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que você deve ser enumerar e descrever precisamente e de forma personalizada todos os principais envolvidos com a solução almeja.
-
-**Links Úteis**:
-
-- [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-- [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-- [Rock Content](https://rockcontent.com/blog/personas/)
-- [Criar personas (Hotmart)](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
+-Persona 2
+-João Paulo
+-É um adulto de 35 anos;
+-Trabalha como médico;
+-Em seu tempo livre costuma jogar handball;
+-Se frustra por não encontrar muitos grupos de handball;
+-Tem como desafio encontrar pessoas para jogar handball;
+-Tem como hobby principal o handball;
+-Costuma passar muito tempo no trabalho e não se diverte muito;
+-Artigos relacionados à handball;
+-Costuma usar a internet;
+-Se informa através das redes sociais;
 
 ## Histórias de Usuários
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+1- Como jogador quero poder ver as partidas que irão acontecer próximas a mim para que
+eu possa jogar meu esporte com a maior facilidade possível.
+2- Como jogador quero poder criar meu perfil para que as pessoas que futuramente jogarem
+comigo saibam um pouco sobre mim.
+3- Como jogador quero poder avaliar as pessoas com as quais eu pratico meu esporte para
+que as partidas possam se tornar agradáveis.
+4- Como jogador quero poder criar minhas próprias partidas para que eu possa colocar
+minhas próprias especificações nos jogos.
+5- Como jogador quero poder ver as especificações das partidas como por exemplo: data,
+horário, local e as demais particularidades do jogo. Para que assim eu possa escolher
+melhor o que eu busco.
+6- Como jogador quero poder adicionar outros jogadores como amigos no site para que eu
+possa criar novas conexões.
 
 **Links Úteis**:
 
@@ -97,10 +128,13 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 - RF12-O jogador pode avaliar o comportamento de outros jogadores;
 - RF13-O jogador pode favoritar suas partidas preferidas;
 - RF14-O jogador pode consultar suas próprias partidas;
-- [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade, desempenho, confiabilidade, segurança ou outro (ex: suporte a dispositivos iOS e Android).
+- [Requisitos Não Funcionais (RNF)]:
+- RNF 1-Programa desenvolvido através das linguagens HTML,CSS,javascript;
+- RNF2-Utilização da API do google maps;
+- RNF 3-Layout Responsivo(Funcional em diversos dispositivos);
+- RNF4-O programa funcionará através da web;
 
-Lembre-se que cada requisito deve corresponder à uma e somente uma característica alvo da sua solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+
 
 **Links Úteis**:
 
@@ -130,7 +164,10 @@ Wireframes são protótipos das telas da aplicação usados em design de interfa
 
 ## Gestão de Projetos
 
-Nesta parte do documento, você deve apresentar  o processo de trabalho baseado nas metodologias ágeis, a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a gestão de configuração do projeto via GitHub.
+- Apresentação: Vitor Veiga e Cauê Afonso
+- Documentação de contexto e especificações: Gabriel Peçanha e Matheus Bianco
+- Projeto de interface: Lorena de Paula
+- Responsável pela documentação do Git Hub: 
 
 Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
 
