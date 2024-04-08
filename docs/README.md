@@ -20,9 +20,8 @@ Esta seção traz explicações breves sobre o conjunto de artefatos que precisa
 
 ## Problema
 
-O público-alvo do nosso projeto são as pessoas que gostam de praticar esportes, mas que não conhecem pessoas em comum que praticam os mesmos. Com o Sports Matches as pessoas poderão além de achar partidas amadoras, também irão conhecer novas pessoas e ter a oportunidade de fazer novas amizades. 
+O Sports Matchs veio para trazer a solução para pessoas que gostam de praticar esportes, mas que não tenham amigos para a prática dos mesmos ou não sabem os locais para jogarem as partidas.
 
-Nesse momento, o grupo pode optar por fazer uso de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
 **Links Úteis**:
 
@@ -32,7 +31,7 @@ Nesse momento, o grupo pode optar por fazer uso de ferramentas como Design Think
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+O objetivo do Sports Matchs é encontrar jogadores na sua região para a pratica de diversos esportes sejam eles: futebol, basquete, vôlei, handball e etc. Outro objetivo do nosso projeto é criar amizades entre usuarios para aumentar a comunidade dos esportes e incentivar ainda mais a pratica dos mesmos.
 
 **Links Úteis**:
 
