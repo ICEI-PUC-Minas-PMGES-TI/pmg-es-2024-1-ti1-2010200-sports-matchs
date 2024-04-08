@@ -181,7 +181,7 @@ Wireframes são protótipos das telas da aplicação usados em design de interfa
 - Apresentação: Vitor Veiga e Cauê Afonso
 - Documentação de contexto e especificações: Gabriel Peçanha e Matheus Bianco
 - Projeto de interface: Lorena de Paula
-- Responsável pela documentação do Git Hub: 
+- Responsável pela documentação do Git Hub: Vitor Veiga
 
 Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
 
