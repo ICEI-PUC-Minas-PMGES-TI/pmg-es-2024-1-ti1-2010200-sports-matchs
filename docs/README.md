@@ -168,7 +168,7 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ## Wireframes
 
-Wireframe do Sports Matches
+A seguir o link dos wireframes do Sports Matches
 
 https://www.figma.com/file/6ZSZZP1rkqpQxoKhwnR7sf/TIAW-(Copy)?type=design&node-id=37%3A94&mode=design&t=KT4Ts30pJ1t8CSS5-1
 
