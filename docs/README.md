@@ -128,6 +128,7 @@ possa criar novas conexões.
 
 
 - [Requisitos Funcionais (RF)]:
+- 
 - RF1-O jogador insere sua área de preferência para as partidas;
 - RF2-O jogador faz o cadastro;
 - RF3-O jogador cria o seu perfil;
@@ -142,7 +143,10 @@ possa criar novas conexões.
 - RF12-O jogador pode avaliar o comportamento de outros jogadores;
 - RF13-O jogador pode favoritar suas partidas preferidas;
 - RF14-O jogador pode consultar suas próprias partidas;
+
+  
 - [Requisitos Não Funcionais (RNF)]:
+  
 - RNF 1-Programa desenvolvido através das linguagens HTML,CSS,javascript;
 - RNF2-Utilização da API do google maps;
 - RNF 3-Layout Responsivo(Funcional em diversos dispositivos);
