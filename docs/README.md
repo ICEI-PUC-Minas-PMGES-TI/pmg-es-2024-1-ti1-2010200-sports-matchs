@@ -20,7 +20,7 @@ Esta seção traz explicações breves sobre o conjunto de artefatos que precisa
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação. Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
+O público-alvo do nosso projeto são as pessoas que gostam de praticar esportes, mas que não conhecem pessoas em comum que praticam os mesmos. Com o Sports Matches as pessoas poderão além de achar partidas amadoras, também irão conhecer novas pessoas e ter a oportunidade de fazer novas amizades. 
 
 Nesse momento, o grupo pode optar por fazer uso de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
@@ -40,7 +40,7 @@ Aqui você deve descrever os objetivos do trabalho indicando que o objetivo gera
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Por isso, a proposta do nosso projeto é utilizar o potencial dos recursos tecnológicos para facilitar encontros esportivos, que antes seriam improváveis, entre praticantes de esportes de todas as idades. Além de oferecer maior praticidade para proporcionar a união de pessoas, o projeto também serve como estímulo ao esporte por meio do auxílio na solução de vários entraves para a prática de exercícios, tais como a falta de local apropriado e a falta de integrantes para a realização de determinada modalidade esportiva.
 
 O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
 
@@ -50,7 +50,7 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
+O público-alvo do nosso projeto são as pessoas que gostam de praticar esportes, mas que não conhecem pessoas em comum que praticam os mesmos. Com o Sports Matchs as pessoas poderão além de achar partidas amadoras, também irão conhecer novas pessoas e ter a oportunidade de fazer novas amizades. 
 
 Adicione informações sobre o público-alvo por meio de uma descrição textual, ou diagramas de personas, mapa de stakeholders, ou como o grupo achar mais conveniente.
 
