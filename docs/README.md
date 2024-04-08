@@ -20,22 +20,17 @@ Esta seção traz explicações breves sobre o conjunto de artefatos que precisa
 
 ## Problema
 
-O Sports Matchs veio para trazer a solução para pessoas que gostam de praticar esportes, mas que não tenham amigos para a prática dos mesmos ou não sabem os locais para jogarem as partidas.
+Historicamente, no Brasil e mundo afora, é possível notar uma correlação entre o desenvolvimento de tecnologias e a diminuição da prática de exercícios físicos, que se dá pela mudança de costumes da população. Seja para o lazer ou para própria rotina do dia a dia, essas ferramentas tornam as atividades mais práticas e menos exigentes fisicamente, dessa forma acabam deixando a população em uma maior zona de conforto e desestimuladas.
+
+O Sports Matchs veio para trazer a solução para pessoas que gostam de praticar esportes, mas que não tenham companhias para a prática dos mesmos ou não sabem os locais para jogarem as partidas. O propósito do Sports Matchs é fazer a comunicação entre amantes dos esportes de todas as idades para a realização de partidas de qualquer esporte.
 
 
-**Links Úteis**:
-
-- [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-- [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-- [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
 O objetivo do Sports Matchs é encontrar jogadores na sua região para a pratica de diversos esportes sejam eles: futebol, basquete, vôlei, handball e etc. Outro objetivo do nosso projeto é criar amizades entre usuarios para aumentar a comunidade dos esportes e incentivar ainda mais a pratica dos mesmos.
 
-**Links Úteis**:
 
-- [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
@@ -43,9 +38,6 @@ Por isso, a proposta do nosso projeto é utilizar o potencial dos recursos tecno
 
 O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
 
-**Links Úteis**:
-
-- [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
@@ -53,10 +45,7 @@ O público-alvo do nosso projeto são as pessoas que gostam de praticar esportes
 
 Adicione informações sobre o público-alvo por meio de uma descrição textual, ou diagramas de personas, mapa de stakeholders, ou como o grupo achar mais conveniente.
 
-**Links Úteis**:
 
-- [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-- [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
 
 ## Personas
 ## Persona 1
@@ -132,10 +121,7 @@ melhor o que eu busco.
 6- Como jogador quero poder adicionar outros jogadores como amigos no site para que eu
 possa criar novas conexões.
 
-**Links Úteis**:
 
-- [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-- [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
 
 ## Requisitos
 
