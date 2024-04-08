@@ -92,15 +92,20 @@ serviço;
 
 1- Como jogador quero poder ver as partidas que irão acontecer próximas a mim para que
 eu possa jogar meu esporte com a maior facilidade possível.
+
 2- Como jogador quero poder criar meu perfil para que as pessoas que futuramente jogarem
 comigo saibam um pouco sobre mim.
+
 3- Como jogador quero poder avaliar as pessoas com as quais eu pratico meu esporte para
 que as partidas possam se tornar agradáveis.
+
 4- Como jogador quero poder criar minhas próprias partidas para que eu possa colocar
 minhas próprias especificações nos jogos.
+
 5- Como jogador quero poder ver as especificações das partidas como por exemplo: data,
 horário, local e as demais particularidades do jogo. Para que assim eu possa escolher
 melhor o que eu busco.
+
 6- Como jogador quero poder adicionar outros jogadores como amigos no site para que eu
 possa criar novas conexões.
 
