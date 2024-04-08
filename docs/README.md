@@ -59,7 +59,7 @@ Adicione informações sobre o público-alvo por meio de uma descrição textual
 - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
 
 ## Personas
--Persona 1
+## Persona 1
 
 -Jorge
 
@@ -87,7 +87,7 @@ relacionados a esporte;
 -Seus critérios na hora de comprar envolvem o custo benefício e qualidade do produto ou
 serviço;
 
--Persona 2
+## Persona 2
 
 -João Paulo
 
