@@ -60,32 +60,55 @@ Adicione informações sobre o público-alvo por meio de uma descrição textual
 
 ## Personas
 -Persona 1
+
 -Jorge
+
 -É um jovem de 22 anos;
+
 -Estuda educação física e trabalha em uma loja como vendedor;
+
 -Passa a maior parte do seu dia estudando;
+
 -Se frustra pelo fato de não encontrar pessoas para jogar seus esportes favoritos;
+
 -Se divertir enquanto concilia faculdade e trabalho;
+
 -Tem como hobby principal praticar diversos esportes, tendo como principal o basquete;
+
 -Gasta seu dinheiro com itens esportivos,colecionáveis diversos e serviços de streaming
 relacionados a esporte;
+
 -Costuma assistir todo tipo de campeonato esportivo;
+
 -É influenciado por figuras grandes no esporte;
+
 -Se informa através de redes sociais e portais esportivos;
+
 -Seus critérios na hora de comprar envolvem o custo benefício e qualidade do produto ou
 serviço;
 
 -Persona 2
+
 -João Paulo
+
 -É um adulto de 35 anos;
+
 -Trabalha como médico;
+
 -Em seu tempo livre costuma jogar handball;
+
 -Se frustra por não encontrar muitos grupos de handball;
+
 -Tem como desafio encontrar pessoas para jogar handball;
+
 -Tem como hobby principal o handball;
+
 -Costuma passar muito tempo no trabalho e não se diverte muito;
+
 -Artigos relacionados à handball;
+
 -Costuma usar a internet;
+
 -Se informa através das redes sociais;
 
 ## Histórias de Usuários
