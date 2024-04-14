@@ -16,7 +16,7 @@ O template para o site é estruturado e permite que a equipe evolua a documenta�
 
 # Orientações gerais
 
-Esta seção traz explicações breves sobre o conjunto de artefatos que precisam ser incluídos na documentação do projeto com uma conjunto de links importantes para que se entenda como criar cada coisa. 
+Abaixo estão as principais informações do projeto do Sports Matches. Sports Matches será um software de aplicação web com o intuito de marcar partidas amadoras.
 
 ## Problema
 
@@ -43,7 +43,7 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 O público-alvo do nosso projeto são as pessoas que gostam de praticar esportes, mas que não conhecem pessoas em comum que praticam os mesmos. Com o Sports Matchs as pessoas poderão além de achar partidas amadoras, também irão conhecer novas pessoas e ter a oportunidade de fazer novas amizades. 
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, ou diagramas de personas, mapa de stakeholders, ou como o grupo achar mais conveniente.
+
 
 
 
@@ -158,30 +158,20 @@ possa criar novas conexões.
 
 ## User Flow
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
-**Links Úteis**:
-
-- [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-- [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-- [Top 25 User Flow Tools &amp; Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
-
-
-- [Requisitos Funcionais (RF)]:
-- RF1- O Usuário iniçia o cadastro;
-- RF2- O Usuário preenche formulário coms as informações basicas/principais;
-- RF3- Cria perfil como jogador;
-- RF4- O jogador cria suas próprias partidas/ estabelecendo regras e condições se necessário;
-- RF5- O jogador pode entrar em partidas existentes;
-- RF6- O jogador pode marcar em uma checklist quais dos materiais necessários já foram obtidos, ou marcar quais ainda sao necessários;
-- RF7- O jogador pode consultar em um mapa o local da partida/ podendo avaliar o locaL (se esta em boas condiçoes para uso);
-- RF8- O jogador pode adicionar amigos;
-- RF9- O jogador que criou a partida pode remover participantes;
-- RF10- O jogador pode consultar se o local da partida e alugado ou público e por quem o preço estabelecido foi pago;
-- RF11- O jogador pode filtrar por categorias seu esporte de preferência;
-- RF12- O jogador pode avaliar o comportamento de outros jogadores;
-- RF13- O jogador pode favoritar suas partidas preferidas/juntamente com os melhores locais;
-- RF14- O jogador pode consultar suas próprias partidas;
+- UF1- O Usuário iniçia o cadastro;
+- UF2- O Usuário preenche formulário coms as informações basicas/principais;
+- UF3- Cria perfil como jogador;
+- UF4- O jogador cria suas próprias partidas/ estabelecendo regras e condições se necessário;
+- UF5- O jogador pode entrar em partidas existentes;
+- UF6- O jogador pode marcar em uma checklist quais dos materiais necessários já foram obtidos, ou marcar quais ainda sao necessários;
+- UF7- O jogador pode consultar em um mapa o local da partida/ podendo avaliar o locaL (se esta em boas condiçoes para uso);
+- UF8- O jogador pode adicionar amigos;
+- UF9- O jogador que criou a partida pode remover participantes;
+- UF10- O jogador pode consultar se o local da partida e alugado ou público e por quem o preço estabelecido foi pago;
+- UF11- O jogador pode filtrar por categorias seu esporte de preferência;
+- UF12- O jogador pode avaliar o comportamento de outros jogadores;
+- UF13- O jogador pode favoritar suas partidas preferidas/juntamente com os melhores locais;
+- UF14- O jogador pode consultar suas próprias partidas;
 
 ## Wireframes
 
@@ -195,6 +185,6 @@ https://www.figma.com/file/6ZSZZP1rkqpQxoKhwnR7sf/TIAW-(Copy)?type=design&node-i
 - Apresentação: Vitor Veiga e Cauê Afonso
 - Documentação de contexto e especificações: Gabriel Peçanha e Matheus Bianco
 - Projeto de interface: Lorena de Paula
-- Responsável pela documentação do Git Hub: Vitor Veiga
+- Responsável pela documentação do Git Hub: Vitor Veiga 
 
 
