@@ -166,6 +166,23 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
 - [Top 25 User Flow Tools &amp; Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
 
+
+- [Requisitos Funcionais (RF)]:
+- RF1- O Usuário iniçia o cadastro;
+- RF2- O Usuário preenche formulário coms as informações basicas/principais;
+- RF3- Cria perfil como jogador;
+- RF4- O jogador cria suas próprias partidas/ estabelecendo regras e condições se necessário;
+- RF5- O jogador pode entrar em partidas existentes;
+- RF6- O jogador pode marcar em uma checklist quais dos materiais necessários já foram obtidos, ou marcar quais ainda sao necessários;
+- RF7- O jogador pode consultar em um mapa o local da partida/ podendo avaliar o locaL (se esta em boas condiçoes para uso);
+- RF8- O jogador pode adicionar amigos;
+- RF9- O jogador que criou a partida pode remover participantes;
+- RF10- O jogador pode consultar se o local da partida e alugado ou público e por quem o preço estabelecido foi pago;
+- RF11- O jogador pode filtrar por categorias seu esporte de preferência;
+- RF12- O jogador pode avaliar o comportamento de outros jogadores;
+- RF13- O jogador pode favoritar suas partidas preferidas/juntamente com os melhores locais;
+- RF14- O jogador pode consultar suas próprias partidas;
+
 ## Wireframes
 
 A seguir o link dos wireframes do Sports Matches
