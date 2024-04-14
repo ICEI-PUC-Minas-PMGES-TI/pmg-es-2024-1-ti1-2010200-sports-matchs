@@ -185,6 +185,6 @@ https://www.figma.com/file/6ZSZZP1rkqpQxoKhwnR7sf/TIAW-(Copy)?type=design&node-i
 - Apresentação: Vitor Veiga e Cauê Afonso
 - Documentação de contexto e especificações: Gabriel Peçanha e Matheus Bianco
 - Projeto de interface: Lorena de Paula
-- Responsável pela documentação do Git Hub: Vitor Veiga 
+- Responsável pela documentação do Git Hub: Vitor Veiga e Jordan Oliveira
 
 
