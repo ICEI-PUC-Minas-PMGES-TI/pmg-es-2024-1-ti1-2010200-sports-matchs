@@ -14,8 +14,8 @@ Um projeto Web destinado a agendamentos de partidas amadoras para os úsuarios i
 
 ## Professores responsáveis
 
-* João Paulo Aramuni
-* Michelle Hanne 
+* Michelle Hanne Soares de Andrade
+* João Paulo Carneiro Aramuni
 
 ## Instruções de utilização
 
