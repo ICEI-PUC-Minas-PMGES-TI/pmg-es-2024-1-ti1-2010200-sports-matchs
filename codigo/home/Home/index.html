@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Todos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Basquete</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Futebol</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Vôlei</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Outros</a>
+                </li>
+            </ul>
+            <img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem">
+        </div>
+
+        <ul class="opções">
+            <li class="opções__item"><a href="#" class="opções__link">Home</a></li>
+            <input type="checkbox" id="opções-menu" class="opções__botão">
+            <label for="opções-menu" class="opções__rotulo">
+                <li class="opções__item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Todos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Basquete</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Futebol</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Vôlei</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Outros</a>
+                </li>
+            </ul>
+
+            <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+            <li class="opções__item"><a href="#" class="opções__link">Minhas Partidas</a></li>
+        </ul>
+
+        <div class="container">
+            <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"
+                    class="container__imagem container__imagem-transparente"></a>
+            <a href="#" class="container__link">
+                <img src="img/adicionar.svg" alt="botão adicionar" class="container__imagem">
+                <p class="container__texto">Criar uma Partida</p>
+            </a>
+            <a href="#" class="container__link">
+                <img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem">
+                <p class="container__texto">Meu perfil</p>
+            </a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Já sabe o que vai jogar?</h2>
+        <p class="banner__texto">Busque por partidas na sua região</p>
+        <input type="search" class="banner__pesquisa" placeholder="Onde você quer uma partida?">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">PARTIDAS EM DESTAQUES</h2>
+        <!-- Slider main container -->
+        </section>
+        <section>
+        <div class="carrossel__container">
+            <div class="card" id="partidas-container">
+                <script>
+                function renderPartidas() {
+                    function renderPartidas(partidas) {
+                    const container = document.getElementById('partidas');
+                        partidas.forEach(partida => {
+                    const partidaDiv = document.createElement('div');
+                        partidaDiv.className = 'partida';
+
+                    const nomePartida = document.createElement('h2');
+                        nomePartida.textContent = partida.nomePartida;
+                        partidaDiv.appendChild(nomePartida);
+
+                    const nome = document.createElement('p');
+                     nome.textContent = `Nome: ${partida.nome}`;
+                    partidaDiv.appendChild(nome);
+
+                    const detalhes = document.createElement('p');
+                        detalhes.textContent = `Detalhes: ${partida.detalhesPartida}`;
+                        partidaDiv.appendChild(detalhes);
+
+                    const descricao = document.createElement('p');
+                        descricao.textContent = `Descrição: ${partida.descricao}`;
+                        partidaDiv.appendChild(descricao);
+
+                        container.appendChild(partidaDiv);
+      });
+    }
+    }
+    // Chama a função para renderizar as partidas
+    renderPartidas(jsonPartidas);
+
+
+                </script>
+                <!-- 1º linha -->
+                <div class="card__descrição">
+                    <!-- 1º coluna -->
+                    <div class="descrição">
+                        <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+                        <h3 class="descrição__titulo">FUT DO LEO </h3>
+                        <h2 class="descrição__titulo-livro">Leonardo Oliveira</h2>
+                        <p class="descrição__texto">Pelada de Futebol Amador em Coração Eucarístico</p>
+                    </div>
+                    <!-- 2º coluna -->
+                    <img src="img/Card Leonardo.svg" class="descrição__imagem">
+                </div>
+                      <!-- 2º linha -->
+                      <div class="card__botões">
+                        <!-- 1º coluna -->
+                        <ul class="botões">
+                            <li class="botões__item"><img src="img/Favorito.svg" alt="Favoritar Partida"></li>
+                            <li class="botões__item"><img src="img/adicionar.svg" alt="Adicionar em partidas"></li>
+                        </ul>
+                        <!-- 2º coluna -->
+                        <a href="#" class="botões__ancora">Saiba mais</a>
+                    </div>
+                    
+                </div>
+
+            <div class="card">
+                
+                <!-- 1º linha -->
+                <div class="card__descrição">
+                    <!-- 1º coluna -->
+                
+                    <div class="descrição">
+                        <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+                        <h3 id="nome_da_partida" class="descrição__titulo"> VOLEI DO HUGO </h3>
+                        <h2 class="descrição__titulo-livro">Hugo Mendes</h2>
+                        <p class="descrição__texto">Volei Amador em Padre Eustaquio</p>
+                    </div>
+                    <!-- 2º coluna -->
+                    <img src="img/Card Hugo.svg" class="descrição__imagem">
+                </div>
+
+                <!-- 2º linha -->
+                <div class="card__botões">
+                    <!-- 1º coluna -->
+                    <ul class="botões">
+                        <li class="botões__item"><img src="img/Favorito.svg" alt="Favoritar Partida"></li>
+                        <li class="botões__item"><img src="img/adicionar.svg" alt="Adicionar em partidas"></li>
+                    </ul>
+                    <!-- 2º coluna -->
+                    <a href="#" class="botões__ancora">Saiba mais</a>
+                </div>
+                
+        </div>
+    </section>
+    <section>
+                </div>
+                <div class="carrossel__container">
+                <div class="card">
+                    <!-- 1º linha -->
+                    <div class="card__descrição">
+                        <!-- 1º coluna -->
+                        <div class="descrição">
+                            <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+                            <h3 class="descrição__titulo">BASQUETE DA ISA</h3>
+                            <h2 class="descrição__titulo-livro">Isabela Pereira</h2>
+                            <p class="descrição__texto">Basquete Amador na Pampulha</p>
+                        </div>
+                        <!-- 2º coluna -->
+                        <img src="img/Card Bia.svg" class="descrição__imagem">
+                    </div>
+    
+                    <!-- 2º linha -->
+                    <div class="card__botões">
+                        <!-- 1º coluna -->
+                        <ul class="botões">
+                            <li class="botões__item"><img src="img/Favorito.svg" alt="Favoritar Partida"></li>
+                            <li class="botões__item"><img src="img/adicionar.svg" alt="Adicionar em partidas"></li>
+                        </ul>
+                        <!-- 2º coluna -->
+                        <a href="#" class="botões__ancora">Saiba mais</a>
+                    </div>
+                    
+                </div>
+                <div class="card">
+                    <!-- 1º linha -->
+                    <div class="card__descrição">
+                        <!-- 1º coluna -->
+                        <div class="descrição">
+                            <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+                            <h3 class="descrição__titulo">HANDBALL DO PEDRO</h3>
+                            <h2 class="descrição__titulo-livro">Pedro Maia</h2>
+                            <p class="descrição__texto">Hand em grupo com divisão do valor da quadra em Nova Gameleira</p>
+                        </div>
+                        <!-- 2º coluna -->
+                        <img src="img/Card Pedro.svg" class="descrição__imagem">
+                    </div>
+    
+                    <!-- 2º linha -->
+                    <div class="card__botões">
+                        <!-- 1º coluna -->
+                        <ul class="botões">
+                            <li class="botões__item"><img src="img/Favorito.svg" alt="Favoritar Partida"></li>
+                            <li class="botões__item"><img src="img/adicionar.svg" alt="Adicionar em partidas"></li>
+                        </ul>
+                        <!-- 2º coluna -->
+                        <a href="#" class="botões__ancora">Saiba mais</a>
+                    </div>
+                    
+            </div>
+    </section>
+    </section>
+    <section class="contato">
+        <div class="contato__descrição">
+            <h2 class="contato__titulo">Fique por dentro das partidas na sua região!</h2>
+            <p class="contato__texto">Atualizações de partidas e outros.</p>
+        </div>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+    </section>
+
+    <hr />
+
+    <footer class="rodapé">
+        <h2 class="rodapé__titulo">Grupo Sports Matchs</h2>
+        <ul class="lista-rodapé">
+            <li class="lista-rodapé__titulo">Desenvolvedores</li>
+            <li class="lista-rodapé__item">
+                <img src="img/github.png" alt="Logo Github" width="35" height="35">
+                <a href="#" class="lista-rodapé__link">Cauê Afonso Moraes</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/github.png" alt="Logo Github" width="35" height="35">
+                <a href="#" class="lista-rodapé__link">Gabriel Peçanha Diniz</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/github.png" alt="Logo Github" width="35" height="35">
+                <a href="#" class="lista-rodapé__link">Jordan Oliveira</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/github.png" alt="Logo Github" width="35" height="35">
+                <a href="#" class="lista-rodapé__link">Lorena de Paula</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/github.png" alt="Logo Github" width="35" height="35">
+                <a href="#" class="lista-rodapé__link">Matheus Bianco Fox Drummond</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <img src="img/github.png" alt="Logo Github" width="35" height="35">
+                <a href="#" class="lista-rodapé__link">Vitor Veiga Silva</a>
+        </ul>
+    </footer>
+</body>
+
+</html>
