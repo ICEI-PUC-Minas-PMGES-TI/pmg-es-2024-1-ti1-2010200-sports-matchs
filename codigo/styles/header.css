@@ -31,7 +31,7 @@
 }
 
 .container__botao:checked~.container__rotulo {
-    background: var(--azul-degrade);
+    background: var(--verde);
 }
 
 .cabeçalho {
@@ -51,15 +51,9 @@
     padding: 1em;
 }
 
-.lista-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    width: 60vw;
-}
-
 .container__botao:checked~.lista-menu {
     display: block;
+    
 }
 
 .lista-menu__titulo,
@@ -81,6 +75,62 @@
     text-transform: uppercase;
 }
 
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 20%;
+    width: 10vw;
+    margin: 5%;
+    list-style-type: none;
+}
+
+.container__botao:checked~.lista-menu {
+    display: block;
+
+}
+
+
+
+.container__botao:checked~.lista-perfil {
+    display: block;
+    
+}
+
+.lista-perfil__titulo,
+.lista-perfil__item {
+    padding: 2em;
+    background-color: var(--branco);
+    display: flex;
+    align-items: center;
+}
+
+.lista-perfil__titulo {
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.lista-perfil__link {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
+
+.lista-perfil {
+    display: none;
+    position: absolute;
+    top: 115%;
+    width: 10vw;
+    margin: -2.9%;
+    list-style-type: none;
+}
+
+.container__botao:checked~.lista-perfil {
+    display: block;
+
+}
+
 .container__botao {
     display: none;
 }
@@ -91,6 +141,7 @@
 
 .opções {
     display: none;
+    
 }
 
 .container__texto {
@@ -121,6 +172,16 @@
     .opções__item {
         padding: 0 1em;
         text-transform: uppercase;
+        list-style-type: none;
+        
+    }
+    .opções__item_perfil {
+        padding: 0 1em;
+        list-style-type: none;
+        
+    }
+    .opções__ {
+        padding: 0 1em;
     }
 
     .opções__link {
@@ -159,6 +220,34 @@
     }
 
     .lista-menu__item:hover>.lista-menu__link {
+        -webkit-text-fill-color: var(--branco);
+        text-decoration: none;
+    }
+
+
+    .opções__botão:checked~.lista-perfil {
+        display: block;
+        width: auto;
+    }
+
+    .opções__botão {
+        display: none;
+    }
+
+    .opções__botão:checked~.opções__rotulo>.opções__item {
+        background: var(--azul-degrade);
+        color: var(--branco);
+    }
+
+    .opções__item {
+        padding: 2em 1em;
+    }
+
+    .lista-perfil__item:hover {
+        background: var(--azul-degrade);
+    }
+
+    .lista-perfil__item:hover>.lista-perfil__link {
         -webkit-text-fill-color: var(--branco);
         text-decoration: none;
     }

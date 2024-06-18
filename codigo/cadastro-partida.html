@@ -12,13 +12,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/codigo/Home/styles/cadastro-part.css">
-    <link rel="stylesheet" href="/codigo/Home/styles/header.css">
-    <link rel="stylesheet" href="/codigo/Home/styles/rodapé.css">
+    <link rel="stylesheet" href="Home/styles/cadastro-part.css">
+    <link rel="stylesheet" href="Home/styles/header.css">
+    <link rel="stylesheet" href="Home/styles/rodapé.css">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="/codigo/Home/styles_cadastro.css">
+    <link rel="stylesheet" href="styles/cadastro-part.css">
     <link rel="stylesheet" href="/codigo/Home/styles_cadastro/listagem.css">
-    
+  
 </head>
 
 <body>
@@ -50,7 +50,7 @@
         </div>
 
         <ul class="opções">
-            <li class="opções__item"><a href="#" class="opções__link">Home</a></li>
+            <li class="opções__item"><a href="index_login.html" class="opções__link">Home</a></li>
             <input type="checkbox" id="opções-menu" class="opções__botão">
             <label for="opções-menu" class="opções__rotulo">
                 <li class="opções__item">Categorias</li>
@@ -91,22 +91,22 @@
             </a>
         </div>
     </header>
-   
-        <main id="container">
-            <section class="cadastro">
-                <h2>DETALHES DA PARTIDA</h2>
-                
+
+    <main id="container">
+        <section class="cadastro">
+            <h2>CADASTRO DE PARTIDAS</h2>
+            
+               
                 
                 <form id="nome-partida-user">
-                    <label for="nome-partida">Nome:</label><br> <br>
-                    <input type="text" id="nome-partida" readonly>
+                    <label for="nome-partida-user">Nome:</label><br> <br>
+                    <input type="text" placeholder="Digite o nome da partida" required>
                 </form> 
                     
                 <form id="cadastro-partidas">
-                    <label for="descricao">Descrição:</label><br> <br>
-                    <textarea rows="10" id="descricao" readonly></textarea>
+                    <label for="descricao"> Descrição:</label><br> <br>
+                    <textarea  rows="10" name="descricao" id="descricao" placeholder="Digite a descrição da partida" required></textarea>
                 </form>
-                
                 <div id="checklist">
                     <input type="checkbox" id="checkbox-1">
                     <label for="checkbox-1">Bola</label>
@@ -132,50 +132,48 @@
                                     <label for="checkbox-5">Goleiro</label>
                                     
                                        </div>
-                
-                <h3>Faixa Etária:</h3> 
-                <select id="faixa-idade" disabled>
-                    <option value="0-11">0-11</option>
-                    <option value="12-17">12-17</option>
-                    <option value="18-25">18-25</option>
-                    <option value="26+">26+</option>
-                    <option value="Partida para todas as idades">Partida para todas as idades</option>
-                </select>
-                
-                <h3>Escolha o Esporte</h3>
-                <select id="escolha-esporte" disabled>
-                    <option value="Futebol">Futebol</option>
-                    <option value="Vôlei">Vôlei</option>
-                    <option value="Basquete">Basquete</option>
-                    <option value="Outros Esportes">Outros Esportes</option>
-                </select>
-                
-                <h3>Existe Opção de Pagamento?</h3>
-                <select id="opcao-pagamento" disabled>
-                    <option value="Sim">Sim</option>
-                    <option value="Nao">Não</option>
-                </select>
-                <br>
-                <button id="edit-button" onclick="enableEditing()">Editar</button>
-                <button id="save-button" onclick="saveChanges()" style="display: none;">Salvar</button>
-                
-               
-                
-                <br><p id="part">Participantes: </p>
-            </section>
+                                       
+                                        <h3>Faixa Etária:</h3> 
+                                        <select name="faixa-idade" id="faixa-idade" onchange="atualizarDados()">
+                                            <option value="0-11">0-11</option>
+                                            <option value="12-17">12-17</option>
+                                            <option value="18-25">18-25</option>
+                                            <option value="26+">26+</option>
+                                            <option value="Partida para todas as idades">Partida para todas as idades</option>
+                                        </select>
+                                        <h3>Escolha o Esporte</h3>
+                                        <select name="escolha-esporte" id="escolha-esporte" onchange="atualizarDados()">
+                                            <option value="Futebol">Futebol</option>
+                                            <option value="Vôlei">Vôlei</option>
+                                            <option value="Basquete">Basquete</option>
+                                            <option value="Outros Esportes">Outros Esportes</option>
+                                        </select>
+                                        <h3>Existe Opção de Pagamento ?</h3>
+                                        <select name="opcao-pagamento" id="opcao-pagamento" onchange="atualizarDados()">
+                                            <option value="Sim">Sim</option>
+                                            <option value="Nao">Não</option>
+                                        </select>
+                                        
+                                        
+ <!-- Tag br para pular as linhas entre o select e o botao */ -->  <br> <br> <br> <button id="botao-salvar">Salvar</button>
+                                        
+                                    
             
-            <aside>
-                <form id="endereco">
-                    <label for="endereco">Endereço:</label><br> <br>
-                    <input type="text" id="endereco" readonly>
-                </form>
-            </aside>
-        </main>
-        
-       
-  
-   
+            <br><p id="part">Participantes : </p>
+            <div id="partidas-container" class="carrossel__container">
+        </section>
+        <aside>
+            <form  id="endereco">
+                <label for="endereco">  Endereço:</label><br> <br>
+                <input type="text" placeholder="Digite aqui o endereço da partida" required>
+                
+            </form>
+             
+        </aside>
+      
+    </main>
     <hr />
+
     <footer class="rodapé">
         <h2 class="rodapé__titulo">Grupo Sports Matchs</h2>
         <ul class="lista-rodapé">
@@ -205,5 +203,10 @@
                 <a href="#" class="lista-rodapé__link">Vitor Veiga Silva</a>
         </ul>
     </footer>
-    <script src="js/detalhes-partidas.js"></script>
+
+
+
+    <script src="/codigo/Home/js/"></script>
 </body>
+
+</html>
