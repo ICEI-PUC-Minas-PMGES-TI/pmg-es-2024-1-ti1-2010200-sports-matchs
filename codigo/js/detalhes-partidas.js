@@ -9,6 +9,7 @@ function carregarDetalhesPartida() {
     document.querySelector('#nome-partida-user input').value = partida.nome;
     document.querySelector('#cadastro-partidas textarea').value = partida.descricao;
     document.querySelector('#endereco input').value = partida.endereco;
+    document.querySelector('#linkContato input').value = partida.linkContato;
     document.querySelector('#faixa-idade').value = partida.faixaIdade;
     document.querySelector('#escolha-esporte').value = partida.escolhaEsporte;
     document.querySelector('#opcao-pagamento').value = partida.opcaoPagamento;
@@ -56,6 +57,7 @@ function saveChanges() {
     partida.nome = document.querySelector('#nome-partida-user input').value;
     partida.descricao = document.querySelector('#cadastro-partidas textarea').value;
     partida.endereco = document.querySelector('#endereco input').value;
+    partida.linkContato = document.querySelector('#linkContato input').value;
     partida.faixaIdade = document.querySelector('#faixa-idade').value;
     partida.escolhaEsporte = document.querySelector('#escolha-esporte').value;
     partida.opcaoPagamento = document.querySelector('#opcao-pagamento').value;
