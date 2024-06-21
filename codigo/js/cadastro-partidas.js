@@ -2,6 +2,7 @@ const form = document.querySelector("form");
 const nomeInput = document.querySelector("#nome-partida-user input");
 const descricaoInput = document.querySelector("#cadastro-partidas textarea");
 const enderecoInput = document.querySelector("#endereco input");
+const linkContatoInput = documente.querySelector("#linkContato input")
 
 /**
  * Salva os dados no Local Storage do navegador e redireciona para a página de listagem de partidas.
@@ -11,6 +12,7 @@ function salvarEEnviar() {
         nome: nomeInput.value.trim(),
         descricao: descricaoInput.value.trim(),
         endereco: enderecoInput.value.trim(),
+        linkContato: linkContatoInput.value.trim(),
         faixaIdade: document.querySelector("#faixa-idade").value,
         escolhaEsporte: document.querySelector("#escolha-esporte").value,
         opcaoPagamento: document.querySelector("#opcao-pagamento").value

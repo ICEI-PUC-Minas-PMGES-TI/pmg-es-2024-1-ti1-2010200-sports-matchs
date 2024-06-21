@@ -94,6 +94,19 @@ input {
     padding: 10px;
 }
 
+#linkContato{
+    color: #FF914D;
+    padding-left: 20px;
+    margin-top: 60px;
+    
+    
+}
+#linkContato input{
+    width:700px;
+    height: 50px;
+    padding: 10px;
+}
+
 section h2{
     color: #FF914D;
     font-weight: bold;
