@@ -17,6 +17,9 @@
     --cinza: #474646;
     --cinza-claro: #858585;
 }
+body{
+    background-color: white;
+}
 main{
     background-color: white;
 }
@@ -29,7 +32,8 @@ aside{
 #container {
     display: grid;
     gap: 0px;
-    margin: 14px;
+    margin: 81.5px;
+    padding: 10px;
     font-family: var(--fonte-principal);
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 2fr 2fr 1fr;
@@ -43,23 +47,21 @@ aside{
 }
 
 input {
-    border-radius: 20px;
+    border-radius: 24px;
      outline: #FF914D;
     border-color:#FF914D; 
     border:solid #FF914D ;
 }
 
 #nome-partida-user{
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 1px;
     color: #FF914D;
 
 }
 #nome-partida-user input{
-   width: 700px;
-   height: 50px;
+   width: 586px;
+   height: 56px;
    padding: 10px;
-
 }
 
 
@@ -72,9 +74,9 @@ input {
 }
 #cadastro-partidas textarea{
     
-    width: 700px;
-    height: 100px;
-    border-radius: 20px;
+    width: 586px;
+    height: 56px;
+    border-radius: 24px;
     border:solid  #FF914D;
     outline: #FF914D;
     padding: 10px;
@@ -84,26 +86,13 @@ input {
 #endereco{
     color: #FF914D;
     padding-left: 20px;
-    margin-top: 60px;
+    margin-top: 10px;
     
     
 }
 #endereco input{
-    width:700px;
-    height: 50px;
-    padding: 10px;
-}
-
-#linkContato{
-    color: #FF914D;
-    padding-left: 20px;
-    margin-top: 60px;
-    
-    
-}
-#linkContato input{
-    width:700px;
-    height: 50px;
+    width:586px;
+    height: 52px;
     padding: 10px;
 }
 
@@ -111,8 +100,8 @@ section h2{
     color: #FF914D;
     font-weight: bold;
     font-size: 4vh;
-    margin-top: 10px;
-    margin-left: 12px;
+    margin-top: 1px;
+    margin-left: 1px;
 }
 #part{
     color: #FF914D;
@@ -133,8 +122,8 @@ section h2{
 }
 #checklist input + label:before{
     content: '';
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     border-radius: 4px;
     background-color: white;
     border: 1px solid #FF914D;
@@ -155,8 +144,8 @@ section h2{
 }
 #checklist input + label:before{
     content: '';
-    width: 44px;
-    height: 44px;
+    width: 35px;
+    height: 35px;
     border-radius: 4px;
     background-color: white;
     border: 1px solid #FF914D;
@@ -184,8 +173,8 @@ section h2{
 }
 #checklist-2 input + label:before{
     content: '';
-    width: 44px;
-    height: 44px;
+    width: 35px;
+    height: 35px;
     border-radius: 13px;
     background-color: white;
     border: 1px solid #FF914D;
@@ -206,8 +195,8 @@ section h2{
 }
 #checklist-2 input + label:before{
     content: '';
-    width: 24px;
-    height: 24px;
+    width: 35px;
+    height: 35px;
     border-radius: 4px;
     background-color: white;
     border: 1px solid #FF914D;
@@ -234,8 +223,8 @@ section h2{
 
 #checklist-3 input + label:before {
     content: '';
-    width: 24px;
-    height: 24px;
+    width: 35px;
+    height: 35px;
     border-radius: 4px;
     background-color: white;
     border: 1px solid #FF914D;
@@ -263,8 +252,8 @@ section h2{
 
 #checklist-4 input + label:before {
     content: '';
-    width: 24px;
-    height: 24px;
+    width: 35px;
+    height: 35px;
     border-radius: 4px;
     background-color: white;
     border: 1px solid #FF914D;
@@ -292,8 +281,8 @@ section h2{
 
 #checklist-5 input + label:before {
     content: '';
-    width: 24px;
-    height: 24px;
+    width: 35px;
+    height: 35px;
     border-radius: 4px;
     background-color: white;
     border: 1px solid #FF914D;
