@@ -89,5 +89,23 @@ function saveChanges() {
     document.getElementById('save-button').style.display = 'none';
 }
 
+function deletePartida() {
+    if (confirm("Você tem certeza que deseja excluir esta partida?")) {
+        const index = localStorage.getItem('partidaIndex');
+        const partidas = JSON.parse(localStorage.getItem('partidas')) || [];
+
+        // Remove a partida do array
+        partidas.splice(index, 1);
+
+        // Salva os dados atualizados no localStorage
+        localStorage.setItem('partidas', JSON.stringify(partidas));
+
+        // Remove o índice da partida do localStorage
+        localStorage.removeItem('partidaIndex');
+
+        // Redireciona para a página de listagem de partidas
+        window.location.href = 'listagem-partidas.html';
+    }
+}
 // Chama a função carregarDetalhesPartida quando a página de detalhes é carregada
 document.addEventListener('DOMContentLoaded', carregarDetalhesPartida);
