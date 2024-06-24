@@ -107,5 +107,63 @@ function deletePartida() {
         window.location.href = 'listagem-partidas.html';
     }
 }
+
+// Função para atualizar a listagem de partidas
+function atualizarParticipantes() {
+    const jogadores = JSON.parse(localStorage.getItem('participantes')) || [];
+    const part = document.getElementById('part');
+    part.innerHTML = ''; // Limpa o conteúdo atual antes de adicionar novos cards
+
+    for(let i =0; i < jogadores.participantes.length; i++){
+        const card = criarCardJogadores(jogadores.participantes[i]);
+        part.appendChild(card);
+    }
+}
+
+
+
+// Função para criar um card de jogadores
+function criarCardJogadores(participantes) {
+    const card = document.createElement('div');
+    card.classList.add('card');
+    card.classList.add('col-6');
+
+    // Criando um elemento de imagem
+    const imagemPessoa = document.createElement('img');
+    // Definindo o atributo src da imagem
+    imagemPessoa.setAttribute('src', participantes.imagem);
+
+    // Adicionando a imagem ao elemento card
+    card.appendChild(imagemPessoa);
+
+    const nomePessoa = document.createElement('h2');
+    nomePessoa.textContent = participantes.nome + " , " + participantes.idade;
+    card.appendChild(nomePessoa);
+
+
+    const nota = document.createElement('p');
+
+    // Cria a lista de ícones de estrela dentro do parágrafo 'nota'
+    const ul = document.createElement('ul');
+    ul.classList.add('avaliacao');
+
+    for (let i = 1; i <= 5; i++) {
+        const li = document.createElement('li');
+        li.classList.add('star-icon');
+        li.setAttribute('data-avaliacao', i);
+        ul.appendChild(li);
+    }
+
+    nota.appendChild(ul);
+
+    // Adiciona o parágrafo 'nota' ao elemento 'card'
+    card.appendChild(nota);
+
+
+    return card;
+}
+
 // Chama a função carregarDetalhesPartida quando a página de detalhes é carregada
 document.addEventListener('DOMContentLoaded', carregarDetalhesPartida);
+
+document.addEventListener('DOMContentLoaded', atualizarParticipantes);

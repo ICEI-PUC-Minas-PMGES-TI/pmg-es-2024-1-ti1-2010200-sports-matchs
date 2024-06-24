@@ -50,5 +50,17 @@ function atualizarListagem() {
     });
 }
 
+function cadastrarPessoas(){
+    if(!localStorage.getItem('participantes')){
+        let text = '{ "participantes" : []}'
+        console.log(text);
+        window.localStorage.setItem("participantes", text);
+    }
+}
+
 // Chama a função atualizarListagem quando a página é carregada
 document.addEventListener('DOMContentLoaded', atualizarListagem);
+// Chama a função carregarDetalhesPartida quando a página de detalhes é carregada
+document.addEventListener('DOMContentLoaded', cadastrarPessoas);
+
+

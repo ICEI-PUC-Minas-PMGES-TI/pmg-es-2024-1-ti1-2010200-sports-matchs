@@ -76,3 +76,25 @@ main {
 .card button:hover {
     background-color: #FF914D; /* Cor de fundo do botão ao passar o mouse */
 }
+
+/*Estilo Botão*/
+.green-button {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    border: none;
+    border-radius: 50%; /* Para tornar o botão redondo */
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.green-button::before {
+    content: '+';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px; /* Ajuste o tamanho do "+" conforme necessário */
+    color: white; /* Cor branca para o "+" */
+}
