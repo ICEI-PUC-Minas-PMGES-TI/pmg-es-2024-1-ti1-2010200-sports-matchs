@@ -2,7 +2,7 @@ const form = document.querySelector("form");
 const nomeInput = document.querySelector("#nome-partida-user input");
 const descricaoInput = document.querySelector("#cadastro-partidas textarea");
 const enderecoInput = document.querySelector("#endereco input");
-const linkContatoInput = documente.querySelector("#linkContato input")
+const linkContatoInput = document.querySelector("#linkContato input");
 
 /**
  * Salva os dados no Local Storage do navegador e redireciona para a página de listagem de partidas.
@@ -15,7 +15,14 @@ function salvarEEnviar() {
         linkContato: linkContatoInput.value.trim(),
         faixaIdade: document.querySelector("#faixa-idade").value,
         escolhaEsporte: document.querySelector("#escolha-esporte").value,
-        opcaoPagamento: document.querySelector("#opcao-pagamento").value
+        opcaoPagamento: document.querySelector("#opcao-pagamento").value,
+        checklist: [
+            document.getElementById('checkbox-1').checked,
+            document.getElementById('checkbox-2').checked,
+            document.getElementById('checkbox-3').checked,
+            document.getElementById('checkbox-4').checked,
+            document.getElementById('checkbox-5').checked
+        ]
     };
 
     // Obtendo os dados de partidas já cadastradas
@@ -26,10 +33,8 @@ function salvarEEnviar() {
     localStorage.setItem("partidas", JSON.stringify(partidas));
 
     // Redirecionando para a página de listagem de partidas
-    window.location.href = "listagem-partidas.html";
-    }
+    window.location.href = "../codigo/listagem-partidas.html";
+}
 
 // Adicionando um evento de clique ao botão salvar
 document.getElementById("botao-salvar").addEventListener("click", salvarEEnviar);
-
-

@@ -59,6 +59,24 @@ const start = ()=> {
 
 start()
 
+const geocoder = new google.maps.Geocoder();
+
+const endereco = 'Coração Eucarístico, Belo Horizonte, Minas Gerais, Brasil';
+
+geocoder.geocode({ address: endereco }, function(results, status) {
+    if (status === 'OK') {
+        const location = results[0].geometry.location;
+        const latitude = location.lat();
+        const longitude = location.lng();
+
+        console.log(`Latitude: ${latitude}, Longitude: ${longitude}`);
+    } else {
+        console.error('Erro ao geocodificar endereço:', status);
+    }
+});
+
+
+
 // Events
 search_button.addEventListener('click', (e) => {
     updateFinishCoordinates()
