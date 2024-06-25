@@ -17,200 +17,153 @@
     --cinza: #474646;
     --cinza-claro: #858585;
 }
-body{
+main {
     background-color: white;
 }
-main{
+
+section {
     background-color: white;
 }
-section{
+
+aside {
+    margin-top:18px;
     background-color: white;
 }
-aside{
-    background-color: white;
-}
+
 #container {
     display: grid;
     gap: 0px;
-    margin: 81.5px;
-    padding: 10px;
-    font-family: var(--fonte-principal);
+    margin: 0px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     grid-template-areas: 
-    "cadastro cadastro aside"
-    "cadastro cadastro aside"
-    "cadastro cadastro aside"
-    
-    
-    ;
+        "cadastro cadastro aside"
 }
 
 input {
-    border-radius: 24px;
-     outline: #FF914D;
-    border-color:#FF914D; 
-    border:solid #FF914D ;
+    border-radius: 20px;
+    outline: #EB9B00;
+    border-color: #EB9B00;
+    border: solid #EB9B00;
 }
 
-#nome-partida-user{
-    margin-top: 1px;
-    color: #FF914D;
-
-}
-#nome-partida-user input{
-   width: 586px;
-   height: 56px;
-   padding: 10px;
-}
-
-
-#cadastro-partidas{
-    color: #FF914D;
+#nome-partida-user {
     margin-left: 20px;
     margin-top: 20px;
-    
-    
+    color: #EB9B00;
 }
-#cadastro-partidas textarea{
-    
-    width: 586px;
-    height: 56px;
-    border-radius: 24px;
-    border:solid  #FF914D;
-    outline: #FF914D;
+
+#nome-partida-user input {
+    width: 700px;
+    height: 50px;
+    padding: 10px;
+}
+
+#botao-salvar {
+    margin-bottom: 80px;
+    margin-right: 40px;
+}
+
+#cadastro-partidas {
+    color: #EB9B00;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#cadastro-partidas textarea {
+    width: 700px;
+    height: 100px;
+    border-radius: 20px;
+    border: solid #EB9B00;
+    outline: #EB9B00;
     padding: 10px;
     resize: none;
+}
 
-}
-#endereco{
-    color: #FF914D;
+#endereco {
+    color: #EB9B00;
     padding-left: 20px;
-    margin-top: 10px;
-    
-    
+    margin-top: 60px;
 }
-#endereco input{
-    width:586px;
-    height: 52px;
+
+#endereco input {
+    width: 700px;
+    height: 50px;
     padding: 10px;
 }
 
-section h2{
-    color: #FF914D;
+section h2 {
+    color: #EB9B00;
     font-weight: bold;
     font-size: 4vh;
-    margin-top: 1px;
-    margin-left: 1px;
+    margin-top: 10px;
+    margin-left: 12px;
 }
-#part{
-    color: #FF914D;
+
+#part {
+    color: #EB9B00;
     margin-top: 10px;
     margin-left: 20px;
 }
 
-#checklist{
+#checklist {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
 }
 
-
-#checklist input{
+#checklist input {
     display: none;
-
 }
-#checklist input + label:before{
+
+#checklist input + label:before {
     content: '';
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     border-radius: 4px;
     background-color: white;
-    border: 1px solid #FF914D;
+    border: 1px solid #EB9B00;
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
     margin-left: 10px;
-    
 }
-#checklist input:checked + label::before{
-    background-color: #FF914D;
-    padding: 1px;
-    background-position: center;
-}
-#checklist input{
-    display: none;
 
-}
-#checklist input + label:before{
-    content: '';
-    width: 35px;
-    height: 35px;
-    border-radius: 4px;
-    background-color: white;
-    border: 1px solid #FF914D;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px;
-    margin-left: 10px;
-    
-}
-#checklist input:checked + label::before{
-    background-color: #FF914D;
+#checklist input:checked + label::before {
+    background-color: #EB9B00;
     padding: 1px;
     background-position: center;
 }
-#checklist-2{
+
+#checklist-2 {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
 }
 
-
-#checklist-2 input{
+#checklist-2 input {
     display: none;
+}
 
-}
-#checklist-2 input + label:before{
+#checklist-2 input + label:before {
     content: '';
-    width: 35px;
-    height: 35px;
-    border-radius: 13px;
-    background-color: white;
-    border: 1px solid #FF914D;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px;
-    margin-left: 10px;
-    
-}
-#checklist-2 input:checked + label::before{
-    background-color: #FF914D;
-    padding: 1px;
-    background-position: center;
-}
-#checklist-2 input{
-    display: none;
-
-}
-#checklist-2 input + label:before{
-    content: '';
-    width: 35px;
-    height: 35px;
+    width: 24px;
+    height: 24px;
     border-radius: 4px;
     background-color: white;
-    border: 1px solid #FF914D;
+    border: 1px solid #EB9B00;
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
     margin-left: 10px;
-    
 }
-#checklist-2 input:checked + label::before{
-    background-color: #FF914D;
+
+#checklist-2 input:checked + label::before {
+    background-color: #EB9B00;
     padding: 1px;
     background-position: center;
 }
+
 #checklist-3 {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -223,11 +176,11 @@ section h2{
 
 #checklist-3 input + label:before {
     content: '';
-    width: 35px;
-    height: 35px;
+    width: 24px;
+    height: 24px;
     border-radius: 4px;
     background-color: white;
-    border: 1px solid #FF914D;
+    border: 1px solid #EB9B00;
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
@@ -235,7 +188,7 @@ section h2{
 }
 
 #checklist-3 input:checked + label::before {
-    background-color: #FF914D;
+    background-color: #EB9B00;
     padding: 1px;
     background-position: center;
 }
@@ -252,11 +205,11 @@ section h2{
 
 #checklist-4 input + label:before {
     content: '';
-    width: 35px;
-    height: 35px;
-    border-radius: 4px;
+    width: 24px;
+    height: 24px;
+border-radius: 4px;
     background-color: white;
-    border: 1px solid #FF914D;
+    border: 1px solid #EB9B00;
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
@@ -281,11 +234,11 @@ section h2{
 
 #checklist-5 input + label:before {
     content: '';
-    width: 35px;
-    height: 35px;
+    width: 24px;
+    height: 24px;
     border-radius: 4px;
     background-color: white;
-    border: 1px solid #FF914D;
+    border: 1px solid #EB9B00;
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
@@ -293,133 +246,172 @@ section h2{
 }
 
 #checklist-5 input:checked + label::before {
-    background-color: #FF914D;
+    background-color: #EB9B00;
     padding: 1px;
     background-position: center;
 }
 
 #faixa-idade {
     margin-top: 20px;
-    background-color:white; /* Cor de fundo do dropdown */
-    color: #FF914D; /* Cor do texto */
-    padding: 10px; /* Espaçamento interno */
-    border: 1px solid #FF914D; /* Borda do dropdown */
-    border-radius: 5px; /* Bordas arredondadas */
-    font-family: Arial, sans-serif; /* Tipo de fonte */
-    font-size: 16px; /* Tamanho da fonte */
-
+    background-color: white;
+    color: #EB9B00;
+    padding: 10px;
+    border: 1px solid #EB9B00;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
 }
 
 #faixa-idade:focus {
-    border-color: #FF914D; /* Cor da borda ao focar (clicar) */
+    border-color: #EB9B00;
 }
 
 #faixa-idade:hover {
-    background-color: white; /* Cor de fundo ao passar o mouse */
+    background-color: white;
 }
 
 #faixa-idade option {
-    padding: 5px; /* Espaçamento interno das opções */
+    padding: 5px;
 }
 
-h3{
-    color: #FF914D;
+h3 {
+    color: #EB9B00;
 }
-#tit-escolha-esporte{
+
+#tit-escolha-esporte {
     margin-top: 20px;
 }
+
 #escolha-esporte {
     margin-top: 20px;
-    background-color:white; /* Cor de fundo do dropdown */
-    color: #FF914D; /* Cor do texto */
-    padding: 10px; /* Espaçamento interno */
-    border: 1px solid #FF914D; /* Borda do dropdown */
-    border-radius: 5px; /* Bordas arredondadas */
-    font-family: Arial, sans-serif; /* Tipo de fonte */
-    font-size: 16px; /* Tamanho da fonte */
-
+    background-color: white;
+    color: #EB9B00;
+    padding: 10px;
+    border: 1px solid #EB9B00;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
 }
 
 #escolha-esporte:focus {
-    border-color: #FF914D; /* Cor da borda ao focar (clicar) */
+    border-color: #EB9B00;
 }
 
 #escolha-esporte:hover {
-    background-color: white; /* Cor de fundo ao passar o mouse */
+    background-color: white;
 }
 
 #escolha-esporte option {
-    padding: 5px; /* Espaçamento interno das opções */
-    
+    padding: 5px;
 }
-#tit-opcao-pagamento{
+
+#tit-opcao-pagamento {
     margin-top: 20px;
 }
+
 #opcao-pagamento {
     margin-top: 20px;
-    background-color:white; /* Cor de fundo do dropdown */
-    color: #FF914D; /* Cor do texto */
-    padding: 10px; /* Espaçamento interno */
-    border: 1px solid #FF914D; /* Borda do dropdown */
-    border-radius: 5px; /* Bordas arredondadas */
-    font-family: Arial, sans-serif; /* Tipo de fonte */
-    font-size: 16px; /* Tamanho da fonte */
-
+    background-color: white;
+    color: #EB9B00;
+    padding: 10px;
+    border: 1px solid #EB9B00;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
 }
 
 #opcao-pagamento:focus {
-    border-color: #FF914D; /* Cor da borda ao focar (clicar) */
+    border-color: #EB9B00;
 }
 
 #opcao-pagamento:hover {
-    background-color: white; /* Cor de fundo ao passar o mouse */
+    background-color: white;
 }
 
 #opcao-pagamento option {
-    padding: 5px; /* Espaçamento interno das opções */
-    
+    padding: 5px;
 }
 
-button{
-    margin-left: 30px;
+button {
+    margin-left: 10px;
     margin-bottom: 20px;
     margin-top: 20px;
-}
- button{
-    background-color: #FF914D;
+    background-color: #EB9B00;
     color: white;
-    border: #FF914D;
+    border: #EB9B00;
     width: 200px;
     height: 50px;
     border-radius: 20px;
     cursor: pointer;
 }
-h3{
+
+h3 {
     margin-top: 20px;
     margin-left: 20px;
 }
 
-select{
+select {
     margin-left: 20px;
 }
+
+
+
+@media screen and (max-width: 1200px) {
+    #container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "cadastro cadastro"
+            "aside aside";
+    }
+    #nome-partida-user input,
+    #endereco input,
+    #cadastro-partidas textarea {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "cadastro"
+            "aside";
+    }
+    #nome-partida-user input,
+    #endereco input,
+    #cadastro-partidas textarea {
+        width: 300px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     #container {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         grid-template-areas: 
-        "cadastro"
-        "cadastro"
-        "aside"
-        "aside";
+            "cadastro"
+            "aside";
     }
-    
-    #cadastro-partidas textarea,
     #nome-partida-user input,
-    #endereco input {
-        width: 100%;
+    #endereco input,
+    #cadastro-partidas textarea {
+        width: 200px;
     }
-    
-    #botao-salvar button {
-        width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+    #container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "cadastro"
+            "aside";
+    }
+    #nome-partida-user input,
+    #endereco input,
+    #cadastro-partidas textarea {
+        width: 150px;
     }
 }

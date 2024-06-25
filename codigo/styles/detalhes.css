@@ -1,3 +1,24 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --laranja: #FF914D;
+    --azul-degrade:#00BF63;
+    --fonte-principal: "Poppins";
+    --verde: #00BF63;
+    --fonte-secundario: "Josefin Sans";
+    --preto: #000000;
+    --cinza: #474646;
+    --cinza-claro: #858585;
+}
+
+
 /* Estilo dos campos de formulário apenas para visualização */
 input[readonly], select[disabled], textarea[readonly] {
     background-color: white; 
@@ -16,6 +37,8 @@ section{
 }
 aside{
     background-color: white;
+    margin-top: 6px;
+    margin-left: 10px;
 }
 #container {
     display: grid;
