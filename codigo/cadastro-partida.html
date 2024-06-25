@@ -164,8 +164,14 @@
         </section>
         <aside>
             <form  id="endereco">
-                <label for="endereco">  Endereço:</label><br> <br>
-                <input type="text" placeholder="Digite aqui o endereço da partida" required>
+                <input id="search">
+                <div id="map"></div>    
+                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvUkkOXSk6laawbKzU0KOb1L8yWczDMU4"></script>
+            <style>  
+                #map {
+                height: 400px;
+                width: 600px;
+            }</style>
                 
             </form>
 
@@ -174,9 +180,7 @@
                 <input type="text" placeholder="Digite aqui o link para contato com o organizador da partida" required>
                 
             </form>
-             
-        </aside>
-      
+</html>
     </main>
     <hr />
 
@@ -212,7 +216,8 @@
 
 
 
-    <script src="/codigo/Home/js/"></script>
+    <script src="./js/api.js"></script>
+    <script src=".js/cadastro-part.js"></script>
 </body>
 
 </html>
