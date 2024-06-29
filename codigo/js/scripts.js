@@ -28,12 +28,21 @@ function renderPartidas(partidas) {
         imagem.classList.add('descricao__imagem');
 
         const botoes = document.createElement('li');
-        botoes.classList.add('icon','card__botões','heartIcon', 'heartIcon.filled');
+        botoes.classList.add('icon','card__botões','heartIcon');
         botoes.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><path d="M16,29A13,13,0,1,1,29,16,13,13,0,0,1,16,29ZM16,5A11,11,0,1,0,27,16,11,11,0,0,0,16,5Z" fill="#00BF63" /><path d="M16,23a1,1,0,0,1-1-1V10a1,1,0,0,1,2,0V22A1,1,0,0,1,16,23Z" fill="#00BF63"/><path d="M22,17H10a1,1,0,0,1,0-2H22a1,1,0,0,1,0,2Z" fill="#00BF63"/></svg>';
         botoes.href = partida.link;
         botoes.addEventListener('click', function() {
         });
 
+        const botoes1 = document.createElement('li');
+        botoes1.classList.add('icon','card__botões');
+        botoes1.innerHTML = '<svg id="heartIcon2" class="heartIcon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.65l-1.06-1.04a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>';
+        botoes1.href = partida.link;
+        botoes1.addEventListener('click', function() {
+            this.children[0].classList.toggle('filled'); 
+        });
+    
+        
         const moreInfoButton = document.createElement('a');
         moreInfoButton.textContent = 'Veja Mais';
         moreInfoButton.classList.add('botao__more');
@@ -53,19 +62,7 @@ function renderPartidas(partidas) {
         details.textContent = `${partida.descricao} ${partida.cidade}`;
         details.classList.add('descricao__texto');
 
-/*         const favorito = document.getElementById('heartIcon').addEventListener('click', function() {
-            this.classList.toggle('filled');})
         
-            document.getElementById('heartIcon2').addEventListener('click', function() {
-            this.classList.toggle('filled');})
-        
-            document.getElementById('heartIcon3').addEventListener('click', function() {
-            this.classList.toggle('filled');})
-        
-            document.getElementById('heartIcon4').addEventListener('click', function() {
-            this.classList.toggle('filled');
-        }); */
-    
         card.appendChild(esquerda);
         card.appendChild(direita);
 
@@ -74,6 +71,7 @@ function renderPartidas(partidas) {
         esquerda.appendChild(name);
         esquerda.appendChild(details);
         card.appendChild(botoes);
+        card.appendChild(botoes1);
         
         
 
