@@ -82,10 +82,10 @@
     text-decoration: none;
     border-radius: 5%;
     font-family: var(--fonte-principal);
-    height: 25%;
     width: 40%;
-    margin-left: 22.5%;
+    margin-left: 19.5%;
     margin-top: 5%;
+    display: flex;
 }
 body {
     background-color: var(--cor-de-fundo);
@@ -102,6 +102,8 @@ body {
 }
 .card__botões{
     justify-content: space-between;
+    display: inline-block;
+    align-items: center;
     text-align: center;
     margin-top: 10%;
     margin-left: 1.1%;
@@ -115,5 +117,5 @@ body {
 }
 
 .heartIcon.filled {
-    fill: red;
+    fill: #00BF63;
 }
