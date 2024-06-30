@@ -1,32 +1,32 @@
 <<<<<<< HEAD
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: Um site de criação partidas amadoras
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
+  - family-names: Veiga Silva
+    given-names: Vitor
+  - family-names: Afonso Moraes
+    given-names: Cauê 
+  - family-names: Bianco Fox Drummond
+    given-names: Matheus 
+  - family-names: Peçanha Diniz
+    given-names: Gabriel
+  - family-names: Oliveira Nestor
+    given-names: Jordan
+  - family-names: Aparecida de Paula Pereira
+    given-names: Lorena
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Hanne Soares de Andrade
+    given-names: Michelle
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Carneiro Aramuni
+    given-names: João Paulo
 keywords:
-  - 
-  - 
-repository-code: 
+  - Esportes
+  - Criação de partidas esportivas amadoras
+repository-code: https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010200-sports-matchs
 license: CC-BY-4.0
 version: 1.0.0
 date-released: 2022-07-14
